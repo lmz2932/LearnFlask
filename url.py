@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 用变量替代的地方，请求时URL不能为空
 
 from flask import Flask
 
