@@ -1,2 +1,4 @@
 *.pyc
 flaskr.db
+*.swp
+uploaded/*
