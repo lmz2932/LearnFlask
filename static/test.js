@@ -37,5 +37,13 @@ function changeLetter(char){
     return String.fromCharCode(char.charCodeAt(0)+1)
 }
 
-var d = new Date()
-console.log(Number(false));
+String.prototype.myInner = "mars loo";
+String.prototype.myFunc = function (str) {
+   return this.concat(str);
+}
+
+function func() {
+    var x = document.getElementById("demo");
+    x.innerHTML="False";
+    return false;
+}
